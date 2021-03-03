@@ -1,4 +1,7 @@
 import { api } from '../../services/api'
+import { config } from 'dotenv'
+
+config() // Inicialização do dotenv
 
 export class SendVoiceSMSUseCase {
 	execute(numero_destino: string, mensagem: string) {
