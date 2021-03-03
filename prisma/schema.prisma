@@ -1,0 +1,23 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Pessoa {
+  id      Int      @id @default(autoincrement())
+  nome    String
+  celular String
+  Divida  Divida[]
+}
+
+model Divida {
+  id             Int      @id @default(autoincrement())
+  dataVencimento DateTime
+  dividendo      Pessoa   @relation(fields: [dividendoId], references: [id])
+  dividendoId    Int
+  valor          Float
+}
