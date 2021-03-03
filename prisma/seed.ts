@@ -13,10 +13,10 @@ const main = async () => {
 
 	// Inserção das dividas
 	await prisma.divida.create({
-		data: { valor: 251.59, dataVencimento: '2021-02-02T00:00:00Z', dividendoId: 1 },
+		data: { valor: 251.59, dataVencimento: '2021-02-01T00:00:00Z', dividendoId: 1 },
 	})
 	await prisma.divida.create({
-		data: { valor: 2051.49, dataVencimento: '2021-02-17T00:00:00Z', dividendoId: 2 },
+		data: { valor: 2051.49, dataVencimento: '2021-02-16T00:00:00Z', dividendoId: 2 },
 	})
 	await prisma.divida.create({
 		data: { valor: 521.97, dataVencimento: '2021-02-28T00:00:00Z', dividendoId: 3 },
