@@ -1,6 +1,6 @@
 # zenvia-voice-default
 
-Este repositório contém a aplicação criada no artigo tutorial da [Prensa.li](https://prensa.li/) sobre como [Automatizar SMS de voz para cobrança com API de voz Zenvia](https://prensa.li/zenvia/automatizar-sms-de-voz-para-cobranca-com-api-de-voz-zenvia).
+Este repositório contém a aplicação criada no artigo tutorial da [Prensa.li](https://prensa.li/) sobre como [realizar cobranças de forma prática e escalável](https://prensa.li/zenvia/aprenda-realizar-cobrancas-de-forma-pratica-e-escalavel/).
 
 ## Como executar
 
